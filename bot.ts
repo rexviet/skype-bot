@@ -27,6 +27,7 @@ export default class MyBot extends ActivityHandler {
       // console.log('activity:', context.activity);
       const memberChanged = this.getConversationMemberChanged(context.activity);
       console.log('memberChanged:', memberChanged);
+      console.log('conversation id:', context.activity.conversation.id);
 
       switch (memberChanged) {
         case ConversationMemberChanged.ADDED:
