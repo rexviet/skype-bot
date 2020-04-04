@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+.env
+node_modules/
+build/
+tmp/
+temp/
+postgres-data/
+package-lock.json
+mysql_data/
+uploads/
+rabbitmq-data/
+conversations.json
